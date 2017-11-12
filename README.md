@@ -1,10 +1,11 @@
 
 功能
-	
+
+	a simple ini file parser
 	一个简单的ini文件的解析器
 
 
-ini文件
+ini文件(ini file)
 
 ```
 
@@ -23,7 +24,7 @@ daemonize = yes
 ```
 
 
-简单的使用
+简单的使用-simple use
 
 ```
 package main
@@ -74,7 +75,7 @@ func t_iniconfig() {
 }
 ```
 
-代码输出
+代码输出 output
 ```
 /data1/log/php-fpm_error.log
 notice
@@ -96,7 +97,7 @@ yes
 
 
 
-单元测试
+单元测试 unittest benchmarktest
 
 ```
 BenchmarkParserConfig-4           	  100000	     12054 ns/op
