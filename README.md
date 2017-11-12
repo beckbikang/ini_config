@@ -74,8 +74,23 @@ func t_iniconfig() {
 }
 ```
 
-
-
+代码输出
+```
+/data1/log/php-fpm_error.log
+notice
+10
+1m
+5s
+yes
+;global-data
+;a
+/data1/log/php-fpm_error.log
+notice
+10
+1m
+5s
+yes
+```
 
 
 
