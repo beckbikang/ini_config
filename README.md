@@ -30,8 +30,8 @@ daemonize = yes
 package main
 
 import (
-	"config"
 	"fmt"
+	"github.com/beckbikang/ini_config/config"
 )
 
 func main() {
@@ -73,6 +73,7 @@ func t_iniconfig() {
 	fmt.Println(cf.GetConfig("global", "daemonize"))
 
 }
+
 ```
 
 代码输出 output
