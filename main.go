@@ -1,8 +1,8 @@
 package main
 
 import (
-	"config"
 	"fmt"
+	"ini_config/config"
 )
 
 func main() {
